@@ -27,6 +27,7 @@
   border: 0.1px solid #19264d;
   border-radius: 6px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .btn_X {

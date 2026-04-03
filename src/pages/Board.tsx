@@ -84,7 +84,7 @@ const Board = () => {
 									className="anim"
 								/>
 							</>
-							: <>{winner} are the Winner.
+							: <>{winner} players won, Reload for new game.
 								<DotLottieReact
 									src={LOTTIE_URLS.laughs}
 									loop
@@ -116,9 +116,9 @@ const Board = () => {
 					))
 				}
 			</Grid>
-			<ButtonReset size="small" variant="outlined" onClick={resetGame} color="error" sx={{ paddingRight: "32px", marginTop: "40px" }}>
+			<ButtonReset size="small" variant="outlined" onClick={resetGame} color="error" sx={{ paddingRight: "32px", marginTop: "40px", fontSize: "16px", fontWeight: "900" }}>
 				<DotLottieReact src={LOTTIE_URLS.reset} loop autoplay className="anim mt" />
-				Reset Game
+				Reload Game
 			</ButtonReset>
 		</Box>
 	)
