@@ -111,6 +111,7 @@ const Board = () => {
 							size={4}
 						>
 							<Button onclick={() => setButtonValue(i)} value={blocks[i]} winner={winner} />
+							<p className="d-none">{val}</p>
 						</Grid>
 					))
 				}
